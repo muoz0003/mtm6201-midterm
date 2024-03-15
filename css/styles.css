@@ -407,7 +407,7 @@ nav li a:hover {
     justify-content: center;
     align-items: center;
     height: auto; 
-    padding: 50px 0; /* Add padding to top and bottom */
+    padding: 50px 0; 
     background-color: #E6C744;
     text-align: center;
 }
