@@ -101,6 +101,23 @@ nav li a:hover {
 /*********** END OF THE NAV MENU ****************/
 
 /* NEW BANNER */
+/* animation for the button */
+.shop-now-button {
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+.shop-now-button:hover {
+    animation: buttonMove 0.5s infinite;
+}
+
+@keyframes buttonMove {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(10px, 0); }
+    50% { transform: translate(10px, 10px); }
+    75% { transform: translate(0, 10px); }
+    100% { transform: translate(0, 0); }
+}
 
 .new-container-banner {
     background-color: #F4F6F5;
@@ -170,6 +187,16 @@ nav li a:hover {
 
 
 /* ****************** products ****************** */
+
+@keyframes h1Move {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+}
+
+.newarrivals {
+    animation: h1Move 2s infinite;
+}
 
 .newarrivals {
     font-weight: 800; /* Make the text extra bold */

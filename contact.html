@@ -1,113 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>
-        Fashion Website
-    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Website</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<div>
+<body>
+    <!-- Skip links -->
+    <a href="#main-content" class="skip-link" aria-label="Skip to main content">Skip to main content</a>
+    <a href="#footer" class="skip-link" aria-label="Skip to footer">Skip to footer</a>
 
-    <body class="container">
-        <!-- Header -->
-        <header>
+    <!-- Header -->
+    <header>
+        <a href="index.html">
+            <button>FASHION</button>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="catalogue.html">CATALOGUE</a></li>
+                <li><a href="#about">FASHION</a></li>
+                <li><a href="#services">FAVOURITE</a></li>
+                <li><a href="#works">LIFESTYLE</a></li>
+                <li><a href="#contact">SIGN UP</a></li>
+            </ul>
+        </nav>
+    </header>
 
-            <a href="index.html">
-                <button>FASHION</button>
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="catalogue.html">CATALOGUE</a></li>
-                    <li><a href="#about">FASHION</a></li>
-                    <li><a href="#services">FAVOURITE</a></li>
-                    <li><a href="#works">LIFESTYLE</a></li>
-                    <li><a href="#contact">SIGN UP</a></li>
-                </ul>
-            </nav>
-</div>
-</header>
+    <!-- Main content -->
+    <main id="main-content">
+        <h1 class="newarrivals">Contact us today!</h1>
 
-<!-- contact form -->
-
-<h1 class="newarrivals"> Contact us! today!</h1>
-
-<div>
-    <h2 class="contact_form_header">Please feel free to contact us by filling this form, a member of our team will get in touch with you as soon as possible.</h2>
-</div>
-
-<form action="submit-form.php" method="POST">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required aria-label="Name">
-
-    <label for="address">Address:</label>
-    <input type="text" id="address" name="address" required aria-label="Address">
-
-    <label for="phone">Phone:</label>
-    <input type="tel" id="phone" name="phone" required aria-label="Phone">
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required aria-label="Email">
-
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" required aria-label="Message"></textarea>
-
-    <button type="submit">Submit</button>
-</form>
-
-<!-- footer section -->
-
-<div class="footer-container">
-    <div class="left-column">
-        <h1>FASHION</h1>
-        <h4>Complete your style with awesome</h4>
-        <h4>clothes from us.</h4>
-        <div class="social-icons">
-            <img src="/images/facebook.png" alt="Facebook">
-            <img src="/images/instagram.png" alt="Instagram">
-            <img src="/images/twiter.png" alt="Twitter">
-            <img src="/images/indeed.png" alt="Indeed">
+        <div>
+            <h2 class="contact_form_header">Please feel free to contact us by filling this form, a member of our team will get in touch with you as soon as possible.</h2>
         </div>
-    </div>
-    <div class="right-column">
-        <div class="sub-column">
-            <h3>Company</h3>
-            <a href="#">
-                <h4>About</h4>
-            </a>
-            <a href="#">
-                <h4>Contact us</h4>
-            </a>
-            <a href="#">
-                <h4>Support</h4>
-            </a>
-            <a href="#">
-                <h4>Careers</h4>
-            </a>
+
+        <form action="submit-form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required aria-label="Name">
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required aria-label="Address">
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required aria-label="Phone">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required aria-label="Email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required aria-label="Message"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <!-- Footer section -->
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="left-column">
+                <h1>FASHION</h1>
+                <h4>Complete your style with awesome</h4>
+                <h4>clothes from us.</h4>
+                <div class="social-icons">
+                    <img src="/images/facebook.png" alt="Facebook">
+                    <img src="/images/instagram.png" alt="Instagram">
+                    <img src="/images/twitter.png" alt="Twitter">
+                    <img src="/images/indeed.png" alt="Indeed">
+                </div>
+            </div>
+            <div class="right-column">
+                <div class="sub-column">
+                    <h3>Company</h3>
+                    <a href="#"><h4>About</h4></a>
+                    <a href="#"><h4>Contact us</h4></a>
+                    <a href="#"><h4>Support</h4></a>
+                    <a href="#"><h4>Careers</h4></a>
+                </div>
+                <div class="sub-column">
+                    <h3>Quick Link</h3>
+                    <a href="#"><h4>Share Location</h4></a>
+                    <a href="#"><h4>Orders Tracking</h4></a>
+                    <a href="#"><h4>Size Guide</h4></a>
+                    <a href="#"><h4>FAQs</h4></a>
+                </div>
+                <div class="sub-column">
+                    <h3>Legal</h3>
+                    <a href="#"><h4>Terms & Conditions</h4></a>
+                    <a href="#"><h4>Privacy Policy</h4></a>
+                </div>
+            </div>
         </div>
-        <div class="sub-column">
-            <h3>Quick Link</h3>
-            <a href="#">
-                <h4>Share Location</h4>
-            </a>
-            <a href="#">
-                <h4>Orders Tracking</h4>
-            </a>
-            <a href="#">
-                <h4>Size Guide</h4>
-            </a>
-            <a href="#">
-                <h4>FAQs</h4>
-            </a>
-        </div>
-        <div class="sub-column">
-            <h3>Legal</h3>
-            <a href="#">
-                <h4>Terms & Conditions</h4>
-            </a>
-            <a href="#">
-                <h4>Privacy Policy</h4>
-            </a>
-        </div>
-    </div>
-</div>
+    </footer>
+</body>
+</html>
