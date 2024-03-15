@@ -28,6 +28,17 @@ button {
     background: none;
 }
 
+#skip-links {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+.skip-link {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
 
 /*********** NAV MENU ****************/
 
